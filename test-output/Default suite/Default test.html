@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 29 15:32:15 EET 2022</td>
+<td>Started on:</td><td>Sun Jan 01 16:32:47 EET 2023</td>
 </tr>
-<tr><td>Total time:</td><td>12 seconds (12872 ms)</td>
+<tr><td>Total time:</td><td>30 seconds (30433 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,45 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Cucumber_TestRunner.parallelRun.runScenario()'><b>runScenario</b><br>Test class: Cucumber_TestRunner.parallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking login using stored Cookies", "Testing the Login functionality using cookies"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of any elements located by By.xpath: (//div[@class=&apos;oxd-grid-item oxd-grid-item--gutters orangehrm-dashboard-widget&apos;]) (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LPCAIQ1132&apos;, ip: &apos;192.168.0.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MABDEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43c207aeb84d912d0d5490862a899d84
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at OrangehrmLive_Pageclass.dashboardPage.dashboardGridElements(dashboardPage.java:14)
+	at OrangehrmLive_Pageclass.dashboardPage.dashboardElementsSize(dashboardPage.java:20)
+	at Cucumber_StepDefinitions.CookiesSteps.user_should_be_able_to_see_the_dash_board_page(CookiesSteps.java:45)
+	at ✽.User should be able to see the DashBoard page 6(file:///C:/Users/mabdelaziz/eclipse-workspace/cucumbertest/src/test/resources/Cucumber_Features/Cookies.feature:22)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1357382881", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1357382881'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of any elements located by By.xpath: (//div[@class=&apos;oxd-grid-item oxd-grid-item--gutters orangehrm-dashboard-widget&apos;]) (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LPCAIQ1132&apos;, ip: &apos;192.168.0.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MABDEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43c207aeb84d912d0d5490862a899d84
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at OrangehrmLive_Pageclass.dashboardPage.dashboardGridElements(dashboardPage.java:14)
+	at OrangehrmLive_Pageclass.dashboardPage.dashboardElementsSize(dashboardPage.java:20)
+	at Cucumber_StepDefinitions.CookiesSteps.user_should_be_able_to_see_the_dash_board_page(CookiesSteps.java:45)
+	at ✽.User should be able to see the DashBoard page 6(file:///C:/Users/mabdelaziz/eclipse-workspace/cucumbertest/src/test/resources/Cucumber_Features/Cookies.feature:22)
+</pre></div></td>
+<td>25</td>
+<td>Cucumber_TestRunner.parallelRun@74f0ea28</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,23 +115,72 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Cucumber_TestRunner.CookiesRunnerAll.runScenario()'><b>runScenario</b><br>Test class: Cucumber_TestRunner.CookiesRunnerAll<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking login using stored Cookies", "Testing the Login functionality using cookies"</td>
-<td></td>
-<td>3</td>
-<td>Cucumber_TestRunner.CookiesRunnerAll@74f0ea28</td></tr>
-<tr>
-<td title='Cucumber_TestRunner.CookiesRunnerAll.runScenario()'><b>runScenario</b><br>Test class: Cucumber_TestRunner.CookiesRunnerAll<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking login and storing Cookies", "Testing the Login functionality using cookies"<br/>
-<a href="#Output-243596165" onClick='toggleBox("Output-243596165", this, "Show output", "Hide output");'>Show output</a>
+<td title='Cucumber_TestRunner.parallelRun.runScenario()'><b>runScenario</b><br>Test class: Cucumber_TestRunner.parallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking login with invalid credentials", "Testing the Login functionality"<br/>
+<a href="#Output-1195088553" onClick='toggleBox("Output-1195088553", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-243596165" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-243596165">
+<a href="#Output-1195088553" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1195088553">
+The ‘Username’ used for this test run is:>> []<br/>
+The ‘Password’ used for this test run is:>> []<br/>
+All fields error message were displayed and has been asserted || Test case passed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>Cucumber_TestRunner.parallelRun@74f0ea28</td></tr>
+<tr>
+<td title='Cucumber_TestRunner.parallelRun.runScenario()'><b>runScenario</b><br>Test class: Cucumber_TestRunner.parallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login using Background Steps", "Testing the Login using Background Steps"<br/>
+<a href="#Output-1361526548" onClick='toggleBox("Output-1361526548", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1361526548" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1361526548">
 The ‘Username’ used for this test run is:>> [Admin]<br/>
 The ‘Password’ used for this test run is:>> [admin123]<br/>
 </div>
 </td>
 <td></td>
-<td>4</td>
-<td>Cucumber_TestRunner.CookiesRunnerAll@74f0ea28</td></tr>
+<td>11</td>
+<td>Cucumber_TestRunner.parallelRun@74f0ea28</td></tr>
+<tr>
+<td title='Cucumber_TestRunner.parallelRun.runScenario()'><b>runScenario</b><br>Test class: Cucumber_TestRunner.parallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking login and storing Cookies", "Testing the Login functionality using cookies"<br/>
+<a href="#Output-27060952" onClick='toggleBox("Output-27060952", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27060952" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27060952">
+The ‘Username’ used for this test run is:>> [Admin]<br/>
+The ‘Password’ used for this test run is:>> [admin123]<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>Cucumber_TestRunner.parallelRun@74f0ea28</td></tr>
+<tr>
+<td title='Cucumber_TestRunner.parallelRun.runScenario()'><b>runScenario</b><br>Test class: Cucumber_TestRunner.parallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking login with invalid credentials", "Testing the Login functionality"<br/>
+<a href="#Output-831249456" onClick='toggleBox("Output-831249456", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-831249456" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-831249456">
+The ‘Username’ used for this test run is:>> [admin123]<br/>
+The ‘Password’ used for this test run is:>> [Admin]<br/>
+The invalid credentials error message was displayed and has been asserted || Test case passed<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>Cucumber_TestRunner.parallelRun@74f0ea28</td></tr>
+<tr>
+<td title='Cucumber_TestRunner.parallelRun.runScenario()'><b>runScenario</b><br>Test class: Cucumber_TestRunner.parallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking login with valid credentials", "Testing the Login functionality"<br/>
+<a href="#Output-887283577" onClick='toggleBox("Output-887283577", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-887283577" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-887283577">
+The ‘Username’ used for this test run is:>> [Admin]<br/>
+The ‘Password’ used for this test run is:>> [admin123]<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>Cucumber_TestRunner.parallelRun@74f0ea28</td></tr>
 </table><p>
 </body>
 </html>

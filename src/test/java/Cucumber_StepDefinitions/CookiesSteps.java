@@ -16,21 +16,8 @@ import io.cucumber.java.en.When;
 public class CookiesSteps {
 
 	baseclass base = new baseclass();
-	landingPage landing = new landingPage();
 	dashboardPage dash = new dashboardPage();
 	CookiesManager manager = new CookiesManager();
-	
-	@Given("^User Opens the home page (.*)$")
-	public void user_opens_the_home_page(String url) throws IOException, Exception  {
-		base.getURL(url);
-	}
-	
-	@When("^User login using valid (.*) and (.*)$")
-	public void user_login_using_Valid_username_and_password(String user, String pass) {
-		landing.fillUsername(user);
-		landing.fillPassword(pass);
-		landing.clickLogin();
-	}
 
 	@Then("Was directed to the DashBoard page {int}")
 	public void was_directed_to_the_dash_board_page(int size) {
@@ -47,7 +34,7 @@ public class CookiesSteps {
 	public void user_opens_the_dashurl(String DashURL) throws Exception {
 		base.getURL(DashURL);
 	}
-	
+
 	@When("^User loads the session (.*)$")
 	public void user_loads_the_session_cookies(String Cookies) throws IOException {
 		manager.loadCookies(getCookiesDirectory(), Cookies);

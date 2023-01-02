@@ -1,37 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[The ‘Username’ used for this test run is:>> []]]>
+    </line>
+    <line>
+      <![CDATA[The ‘Username’ used for this test run is:>> [Admin]]]>
+    </line>
+    <line>
+      <![CDATA[The ‘Username’ used for this test run is:>> [admin123]]]>
+    </line>
+    <line>
+      <![CDATA[The ‘Username’ used for this test run is:>> [Admin]]]>
+    </line>
     <line>
       <![CDATA[The ‘Username’ used for this test run is:>> [Admin]]]>
     </line>
     <line>
       <![CDATA[The ‘Password’ used for this test run is:>> [admin123]]]>
     </line>
+    <line>
+      <![CDATA[The ‘Password’ used for this test run is:>> []]]>
+    </line>
+    <line>
+      <![CDATA[The ‘Password’ used for this test run is:>> [admin123]]]>
+    </line>
+    <line>
+      <![CDATA[The ‘Password’ used for this test run is:>> [admin123]]]>
+    </line>
+    <line>
+      <![CDATA[The ‘Password’ used for this test run is:>> [Admin]]]>
+    </line>
+    <line>
+      <![CDATA[All fields error message were displayed and has been asserted || Test case passed]]>
+    </line>
+    <line>
+      <![CDATA[The invalid credentials error message was displayed and has been asserted || Test case passed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-12-29T15:32:15 EET" name="Default suite" finished-at="2022-12-29T15:32:28 EET" duration-ms="12872">
+  <suite started-at="2023-01-01T16:32:47 EET" name="Default suite" finished-at="2023-01-01T16:33:17 EET" duration-ms="30433">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber_TestRunner.CookiesRunnerAll@74f0ea28]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-12-29T15:32:15 EET" name="Default test" finished-at="2022-12-29T15:32:28 EET" duration-ms="12872">
-      <class name="Cucumber_TestRunner.CookiesRunnerAll">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber_TestRunner.CookiesRunnerAll@74f0ea28]" started-at="2022-12-29T15:32:15 EET" name="setUpClass" finished-at="2022-12-29T15:32:16 EET" duration-ms="371" status="PASS">
+    <test started-at="2023-01-01T16:32:47 EET" name="Default test" finished-at="2023-01-01T16:33:17 EET" duration-ms="30433">
+      <class name="Cucumber_TestRunner.parallelRun">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:47 EET" name="setUpClass" finished-at="2023-01-01T16:32:47 EET" duration-ms="391" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@f88bfbe]]>
+                <![CDATA[org.testng.TestRunner@1d7f7be7]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:Cucumber_TestRunner.CookiesRunnerAll@74f0ea28]" started-at="2022-12-29T15:32:16 EET" name="browserSetup" finished-at="2022-12-29T15:32:17 EET" duration-ms="1906" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:47 EET" name="browserSetup" finished-at="2023-01-01T16:32:51 EET" duration-ms="4225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber_TestRunner.CookiesRunnerAll@74f0ea28]" started-at="2022-12-29T15:32:17 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-29T15:32:22 EET" duration-ms="4482" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:47 EET" name="browserSetup" finished-at="2023-01-01T16:32:51 EET" duration-ms="3846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:47 EET" name="browserSetup" finished-at="2023-01-01T16:32:51 EET" duration-ms="4283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:47 EET" name="browserSetup" finished-at="2023-01-01T16:32:52 EET" duration-ms="4353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:47 EET" name="browserSetup" finished-at="2023-01-01T16:32:51 EET" duration-ms="4259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:47 EET" name="browserSetup" finished-at="2023-01-01T16:32:52 EET" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:51 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-01T16:33:16 EET" duration-ms="25259" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking login using stored Cookies"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Login functionality using cookies"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of any elements located by By.xpath: (//div[@class='oxd-grid-item oxd-grid-item--gutters orangehrm-dashboard-widget']) (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPCAIQ1132', ip: '192.168.0.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MABDEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43c207aeb84d912d0d5490862a899d84]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of any elements located by By.xpath: (//div[@class='oxd-grid-item oxd-grid-item--gutters orangehrm-dashboard-widget']) (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LPCAIQ1132', ip: '192.168.0.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\MABDEL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59381}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43c207aeb84d912d0d5490862a899d84
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at OrangehrmLive_Pageclass.dashboardPage.dashboardGridElements(dashboardPage.java:14)
+at OrangehrmLive_Pageclass.dashboardPage.dashboardElementsSize(dashboardPage.java:20)
+at Cucumber_StepDefinitions.CookiesSteps.user_should_be_able_to_see_the_dash_board_page(CookiesSteps.java:45)
+at ✽.User should be able to see the DashBoard page 6(file:///C:/Users/mabdelaziz/eclipse-workspace/cucumbertest/src/test/resources/Cucumber_Features/Cookies.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:51 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-01T16:33:00 EET" duration-ms="8634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The ‘Username’ used for this test run is:>> [admin123]]]>
+            </line>
+            <line>
+              <![CDATA[The ‘Password’ used for this test run is:>> [Admin]]]>
+            </line>
+            <line>
+              <![CDATA[The invalid credentials error message was displayed and has been asserted || Test case passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:51 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-01T16:33:03 EET" duration-ms="11295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login using Background Steps"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Login using Background Steps"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The ‘Username’ used for this test run is:>> [Admin]]]>
+            </line>
+            <line>
+              <![CDATA[The ‘Password’ used for this test run is:>> [admin123]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:51 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-01T16:32:59 EET" duration-ms="7910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The ‘Username’ used for this test run is:>> []]]>
+            </line>
+            <line>
+              <![CDATA[The ‘Password’ used for this test run is:>> []]]>
+            </line>
+            <line>
+              <![CDATA[All fields error message were displayed and has been asserted || Test case passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:52 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-01T16:33:02 EET" duration-ms="10820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing the Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The ‘Username’ used for this test run is:>> [Admin]]]>
+            </line>
+            <line>
+              <![CDATA[The ‘Password’ used for this test run is:>> [admin123]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:52 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-01T16:33:03 EET" duration-ms="11094" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,39 +238,35 @@
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Cucumber_TestRunner.CookiesRunnerAll@74f0ea28]" started-at="2022-12-29T15:32:22 EET" name="tearDown" finished-at="2022-12-29T15:32:23 EET" duration-ms="878" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:32:59 EET" name="tearDown" finished-at="2023-01-01T16:33:02 EET" duration-ms="2449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:Cucumber_TestRunner.CookiesRunnerAll@74f0ea28]" started-at="2022-12-29T15:32:23 EET" name="browserSetup" finished-at="2022-12-29T15:32:24 EET" duration-ms="1285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber_TestRunner.CookiesRunnerAll@74f0ea28]" started-at="2022-12-29T15:32:24 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-29T15:32:27 EET" duration-ms="3020" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Checking login using stored Cookies"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Testing the Login functionality using cookies"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Cucumber_TestRunner.CookiesRunnerAll@74f0ea28]" started-at="2022-12-29T15:32:27 EET" name="tearDown" finished-at="2022-12-29T15:32:28 EET" duration-ms="839" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:33:00 EET" name="tearDown" finished-at="2023-01-01T16:33:02 EET" duration-ms="1837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber_TestRunner.CookiesRunnerAll@74f0ea28]" started-at="2022-12-29T15:32:28 EET" name="tearDownClass" finished-at="2022-12-29T15:32:28 EET" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:33:02 EET" name="tearDown" finished-at="2023-01-01T16:33:04 EET" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:33:03 EET" name="tearDown" finished-at="2023-01-01T16:33:04 EET" duration-ms="1140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:33:03 EET" name="tearDown" finished-at="2023-01-01T16:33:04 EET" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:33:16 EET" name="tearDown" finished-at="2023-01-01T16:33:17 EET" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber_TestRunner.parallelRun@74f0ea28]" started-at="2023-01-01T16:33:17 EET" name="tearDownClass" finished-at="2023-01-01T16:33:17 EET" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- Cucumber_TestRunner.CookiesRunnerAll -->
+      </class> <!-- Cucumber_TestRunner.parallelRun -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
