@@ -31,7 +31,6 @@ jobs:
       run: mvn clean test -DfileName='ParallelTestRunner.xml'
       continue-on-error: true
 
-
           
     - name: Allure report from marketplace
       uses: simple-elf/allure-report-action@master
@@ -39,7 +38,7 @@ jobs:
       id: allure-report
       with:
         allure_results: allure-results
-        gh_pages: AllureReports
+        gh_pages: main
         allure_report: allure-report
         allure_history: allure-history
 
@@ -48,7 +47,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v2
       env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: AllureReports
+          PUBLISH_BRANCH: main
           PUBLISH_DIR: allure-history
   
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
