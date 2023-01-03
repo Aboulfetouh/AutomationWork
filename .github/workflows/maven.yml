@@ -31,13 +31,7 @@ jobs:
       run: mvn clean test -DfileName='ParallelTestRunner.xml'
       continue-on-error: true
 
-    - name: Get Allure history
-      uses: actions/checkout@v2
-      if: always()
-      continue-on-error: true
-      with:
-        ref: AllureReports
-        path: AllureReports
+
           
     - name: Allure report from marketplace
       uses: simple-elf/allure-report-action@master
