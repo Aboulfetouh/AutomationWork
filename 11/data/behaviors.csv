@@ -1,0 +1,7 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Testing the Login functionality","Checking login with valid credentials","0","0","1","0","0"
+"","Testing the Login functionality","Checking login with invalid credentials","0","0","2","0","0"
+"","","","0","2","4","0","0"
+"","Testing the Login using Background Steps","Login using Background Steps","0","0","1","0","0"
+"","Testing the Login functionality using cookies","Checking login using stored Cookies","0","1","0","0","0"
+"","Testing the Login functionality using cookies","Checking login and storing Cookies","0","0","1","0","0"
