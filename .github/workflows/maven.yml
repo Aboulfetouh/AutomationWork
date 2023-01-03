@@ -36,8 +36,8 @@ jobs:
       if: always()
       continue-on-error: true
       with:
-        ref: main
-        path: main
+        ref: AllureReports
+        path: AllureReports
           
     - name: Allure report from marketplace
       uses: simple-elf/allure-report-action@master
@@ -45,7 +45,7 @@ jobs:
       id: allure-report
       with:
         allure_results: allure-results
-        gh_pages: main
+        gh_pages: AllureReports
         allure_report: allure-report
         allure_history: allure-history
 
@@ -54,7 +54,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v2
       env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: main
+          PUBLISH_BRANCH: AllureReports
           PUBLISH_DIR: allure-history
   
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
